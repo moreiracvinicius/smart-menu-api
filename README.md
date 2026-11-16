@@ -1,4 +1,4 @@
-# 🍔 iFood Smart Menu Recommender API
+# 🍔 Smart Menu Recommender API
 
 Microsserviço de back-end em Python construído com **FastAPI** e integrado a **LLMs** para recomendação contextualizada de pratos de delivery. Desenvolvido como projeto de portfólio para o processo seletivo do **Programa de Estágio GenAI do iFood (2027)**.
 
@@ -45,3 +45,9 @@ $env:GEMINI_API_KEY="sua_chave_aqui"
 
 # 5. Inicie o servidor da API
 uvicorn main:app --reload
+```
+---
+
+## 🤖 Notas de Desenvolvimento
+
+Este projeto foi desenvolvido de forma colaborativa com o auxílio do Google Gemini (modelo Gemini 2.5 Flash / 3.8 Flash via SDK oficial google-genai), utilizado como assistente de planejamento técnico, estruturação de código e refatoração arquitetural.
